@@ -13,10 +13,10 @@ function Navbar() {
 							<span className="text-brand font-weight-900">Auto Spa</span>
 						</a>
 					</Link>
+					<input id="menu" type="checkbox" name="menu" />
 					<label className="menu-toggle" htmlFor="menu" role="menu">
 						<span className="hamburger"></span>
 					</label>
-					<input id="menu" type="checkbox" name="menu" />
 					<nav className="nav-main">
 						<ul>
 							{/* <li>
