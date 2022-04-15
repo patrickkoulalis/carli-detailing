@@ -19,7 +19,7 @@ export default function Home() {
 			</section>
 
 			<section className="intro">
-				<div className="container bg-brand text-white flow">
+				<div className="container bg-brand-light flow">
 					<h2>Car Detailing Expert</h2>
 					<p>
 						Carli’s Auto Spa has an attention to detail that you can not find
@@ -41,6 +41,9 @@ export default function Home() {
 							<li>Clean and organize trunk</li>
 						</ul>
 					</div>
+					<Link href="/contact">
+						<a className="button">Book Now</a>
+					</Link>
 				</div>
 			</section>
 

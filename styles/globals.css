@@ -355,6 +355,10 @@ section,
 	background-color: var(--dark);
 }
 
+.bg-brand-light {
+	background-color: var(--brand-light);
+}
+
 .bg-dark a,
 .bg-dark .link {
 	color: var(--light);
