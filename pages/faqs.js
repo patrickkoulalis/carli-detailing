@@ -61,7 +61,7 @@ function faqs() {
 				<p className="font-size-24">
 					We make every detail count beacuse we know how much you love your car.
 				</p>
-				<Link href="/contact">
+				<Link href="/booking">
 					<a className="button">Book Now</a>
 				</Link>
 			</section>

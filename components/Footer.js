@@ -18,19 +18,21 @@ function Footer() {
 						</Link>
 						<p>
 							<b>Email</b> -{' '}
-							<a href="mailto:clean@autodetailpa.com">clean@autodetailpa.com</a>
+							<a href="mailto:carli@cardetailingpa.com">
+								carli@cardetailingpa.com
+							</a>
 						</p>
-						<p>
+						{/* <p>
 							<b>Phone</b> - <a href="tel:+17245551234">724.555.1234</a>
-						</p>
+						</p> */}
 					</div>
 					<div className="flex-col">
 						<h3 className="font-size-24">Detailing Package</h3>
 						<ul>
-							<li>HIGH SPEED</li>
-							<li>EXTERIOR WASH</li>
-							<li>EXTERIOR DELUXE</li>
-							<li>INTERIOR DELUXE</li>
+							<li>High Speed</li>
+							<li>Exterior Wash</li>
+							<li>Exterior Deluxe</li>
+							<li>Interior Deluxe</li>
 						</ul>
 					</div>
 					<div className="flex-col">

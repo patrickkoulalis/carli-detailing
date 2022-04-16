@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import Layout from '../components/Layout';
 import handsBubbles from '../public/hands-bubbles.svg';
 import handsSparkles from '../public/hand-sparkles.svg';
@@ -23,7 +24,7 @@ function services() {
 
 			<section>
 				<div className="container flow">
-					<div className="card card--dark flow">
+					<div className="card card--dark flow overflow-hidden">
 						<div className="grid grid-lg-25">
 							<span className="flow">
 								<div className="card__icon">
@@ -115,9 +116,48 @@ function services() {
 				</div>
 			</section>
 
+			<section>
+				<div className="container">
+					<div className="grid grid-lg-25 text-center">
+						<div>
+							<Image src="/sedan.jpg" width={208} height={137} />
+							<span className="block text-bold">Sedan</span>
+							<p>
+								MERCEDES C-CLASS, BMW-3 SERIES, AUDI-A4, TOYOTA CAMARY, HONDA
+								ACCORD, INFINITI Q50AND SIMILAR
+							</p>
+						</div>
+						<div>
+							<Image src="/small_suv.jpg" width={208} height={137} />
+							<span className="block text-bold">Small SUV</span>
+							<p>
+								MERCEDES GL350, BMW X3, HONDA CRV, TOYOTA RAV-4, VOLKSWAGEN
+								TIGUAN, ACURA RDX AND SIMILAR
+							</p>
+						</div>
+						<div>
+							<Image src="/large_suv.jpg" width={208} height={137} />
+							<span className="block text-bold">Large SUV</span>
+							<p>
+								DODGE JOURNEY, CHEVROLET EQUINOX, TOYOTA HIGHLANDER, INFINITI
+								QX60, MERCEDES ML350 AND SIMILAR
+							</p>
+						</div>
+						<div>
+							<Image src="/xlarge_suv.jpg" width={208} height={137} />
+							<span className="block text-bold">X-Large SUV</span>
+							<p>
+								CADILLAC ESCALADE, CHEVROLET SUBURBAN, FORD EXPEDITION, GMC
+								YUKON XL, INFINITI QX80 AND SIMILAR
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
 			<section className="bg-dark text-white text-center flow margin-bottom-32">
 				<h2 className="font-size-48">BOOK YOUR CAR DETAIL NOW!</h2>
-				<Link href="/contact">
+				<Link href="/booking">
 					<a className="button">Book Now</a>
 				</Link>
 			</section>
@@ -196,7 +236,7 @@ function services() {
 				<div className="container">
 					<div className="grid grid-lg-50">
 						<img src="/AdobeStock_465485786.jpg" alt="" />
-						<div>
+						<div className="flow">
 							<h2 className="text-center font-size-48">
 								Expert
 								<span className="text-brand"> Detailing Services</span>
@@ -223,7 +263,7 @@ function services() {
 				<p className="font-size-24">
 					We make every detail count beacuse we know how much you love your car.
 				</p>
-				<Link href="/contact">
+				<Link href="/booking">
 					<a className="button">Book Now</a>
 				</Link>
 			</section>

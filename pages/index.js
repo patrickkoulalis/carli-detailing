@@ -41,7 +41,7 @@ export default function Home() {
 							<li>Clean and organize trunk</li>
 						</ul>
 					</div>
-					<Link href="/contact">
+					<Link href="/booking">
 						<a className="button">Book Now</a>
 					</Link>
 				</div>
@@ -68,6 +68,7 @@ export default function Home() {
 								<li>Dust Vents</li>
 								<li>Openings &amp; Electronics</li>
 							</ul>
+							<Link href="/booking">Book Now</Link>
 						</div>
 
 						<div className="card card--dark flow flex-col-33">
@@ -88,6 +89,7 @@ export default function Home() {
 								<li>Dust Vents</li>
 								<li>Openings &amp; Electronics</li>
 							</ul>
+							<Link href="/booking">Book Now</Link>
 						</div>
 
 						<div className="card card--dark flow flex-col-33">
@@ -108,6 +110,7 @@ export default function Home() {
 								<li>Dust Vents</li>
 								<li>Openings &amp; Electronics</li>
 							</ul>
+							<Link href="/booking">Book Now</Link>
 						</div>
 					</div>
 				</div>
@@ -127,9 +130,7 @@ export default function Home() {
 								width="135"
 								loading="lazy"
 							/>
-							<span className="text-brand display-block font-weight-900">
-								Ryan S.
-							</span>
+							<span className="text-brand block font-weight-900">Ryan S.</span>
 						</div>
 						<blockquote>
 							“The work Carli does is absolutly amazing. She goes above and
@@ -146,7 +147,7 @@ export default function Home() {
 				<p className="font-size-24">
 					We make every detail count beacuse we know how much you love your car.
 				</p>
-				<Link href="/contact">
+				<Link href="/booking">
 					<a className="button">Book Now</a>
 				</Link>
 			</section>

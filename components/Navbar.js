@@ -30,6 +30,11 @@ function Navbar() {
 								</Link>
 							</li>
 							<li>
+								<Link href="/booking">
+									<a className="">Booking</a>
+								</Link>
+							</li>
+							<li>
 								<Link href="/faqs">
 									<a className="">FAQs</a>
 								</Link>
@@ -41,16 +46,24 @@ function Navbar() {
 							</li>
 						</ul>
 					</nav>
-					<span className="top__phone font-large push-right font-weight-900 hidden-lg">
+					{/* <span className="top__phone font-large push-right font-weight-900 hidden-lg">
 						<a href="tel:+17245551234" className="text-brand">
 							724<span className="text-white">.</span>555
 							<span className="text-white">.</span>1234
 						</a>
+					</span> */}
+					<span className="push-right hidden-lg">
+						<Link href="/booking">
+							<a className="button">Request Booking</a>
+						</Link>
 					</span>
 				</div>
 			</header>
-			<div className="mobile-cta">
+			{/* <div className="mobile-cta">
 				<span className="font-weight-400">Call Us</span> 724.555.1234
+			</div> */}
+			<div className="mobile-cta bg-brand">
+				<Link href="/booking">Request Booking</Link>
 			</div>
 		</>
 	);

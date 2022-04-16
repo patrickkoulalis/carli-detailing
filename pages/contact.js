@@ -21,25 +21,30 @@ function contact() {
 			<section>
 				<div className="container flow">
 					<h3 className="font-size-32 text-center">Email</h3>
-					<span className="font-size-24 text-brand text-center display-block">
-						carli@autodetailpa.com
+					<span className="font-size-24 text-brand text-center block">
+						<a href="mailto:carli@cardetailingpa.com">
+							carli@cardetailingpa.com
+						</a>
 					</span>
-					<h3 className="font-size-32 text-center">Phone</h3>
-					<span className="font-size-24 text-brand text-center display-block">
+					{/* <h3 className="font-size-32 text-center">Phone</h3>
+					<span className="font-size-24 text-brand text-center block">
 						724.555.1234
-					</span>
+					</span> */}
 				</div>
 			</section>
 			<section className="bg-dark text-white text-center flow">
 				<h2 className="font-size-48">Schedule an Appointment Today</h2>
 				<p>
-					<span className="text-brand font-size-64 font-weight-900 display-block">
+					<span className="text-brand font-size-64 font-weight-900 block">
 						Get 10% off
 					</span>
 					<span className="font-size-32 font-weight-900">
 						your first detail!
 					</span>
 				</p>
+				<Link href="/booking">
+					<a className="button">Book Now</a>
+				</Link>
 			</section>
 		</Layout>
 	);
