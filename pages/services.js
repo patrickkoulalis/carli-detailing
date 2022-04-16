@@ -42,6 +42,7 @@ function services() {
 									<li>Wheels and Rims, </li>
 									<li>Interior &amp; Exterior Windows</li>
 								</ul>
+								<Link href="/booking">Book Now</Link>
 							</span>
 						</div>
 						<svg
@@ -71,6 +72,7 @@ function services() {
 								<li>Dust Vents</li>
 								<li>Openings &amp; Electronics</li>
 							</ul>
+							<Link href="/booking">Book Now</Link>
 						</div>
 
 						<div className="card card--gray-1 flow flex-col-33">
@@ -91,6 +93,7 @@ function services() {
 								<li>Exterior Simonized</li>
 								<li>Door and jambs waxed</li>
 							</ul>
+							<Link href="/booking">Book Now</Link>
 						</div>
 
 						<div className="card card--gray-2  flow flex-col-33">
@@ -110,6 +113,7 @@ function services() {
 								<li>Vinyl &amp; Leather reconditioned</li>
 								<li>Upholstery &amp; Carpet Shampoo and Vacuum</li>
 							</ul>
+							<Link href="/booking">Book Now</Link>
 						</div>
 					</div>
 				</div>
@@ -160,7 +164,7 @@ function services() {
 					<a className="button">Book Now</a>
 				</Link>
 			</section>
-
+			{/*
 			<section>
 				<div className="container flow">
 					<h2 className="text-center font-size-48">
@@ -186,6 +190,7 @@ function services() {
 								<li>Dust Vents</li>
 								<li>Openings &amp; Electronics</li>
 							</ul>
+							<Link href="/booking">Book Now</Link>
 						</div>
 
 						<div className="card card--dark flow">
@@ -206,6 +211,7 @@ function services() {
 								<li>Dust Vents</li>
 								<li>Openings &amp; Electronics</li>
 							</ul>
+							<Link href="/booking">Book Now</Link>
 						</div>
 
 						<div className="card card--dark flow">
@@ -228,10 +234,11 @@ function services() {
 								<li>Vinyl &amp; Leather reconditioned</li>
 								<li>Upholstery &amp; Carpet Shampoo and Vacuum</li>
 							</ul>
+							<Link href="/booking">Book Now</Link>
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> */}
 
 			<section className="service-experts">
 				<div className="container">
