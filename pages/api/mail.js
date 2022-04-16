@@ -15,8 +15,8 @@ export default async function handler(req, res) {
 			To: 'carli@cardetailingpa.com',
 			replyTo: 'booking@cardetailingpa.com',
 			Subject: 'New Detailing Booking Request',
-			HtmlBody: `<b>Full Name:</b> ${body.name} <br><b>Email:</b> ${body.email} <br><b>Phone:</b> ${body.phone} <br><b>Vehicle Type:</b> ${body.vehicleTypeName} <br><b>Package:</b> ${body.packageName} <br><b>Total:</b> ${body.packagePrice}`,
-			TextBody: `${body.name} ${body.email} ${body.phone} ${body.vehicleTypeName} ${body.packageName} ${body.packagePrice}`,
+			HtmlBody: `<b>Full Name:</b> ${body.name} <br><b>Email:</b> ${body.email} <br><b>Phone:</b> ${body.phone} <br><b>Vehicle Type:</b> ${body.vehicleTypeName} <br><b>Vehicle Make & Model:</b> ${body.vehicle} <br><b>Package:</b> ${body.packageName} <br><b>Total:</b> ${body.packagePrice}`,
+			TextBody: `${body.name} ${body.email} ${body.phone} ${body.vehicleTypeName} ${body.vehicle} ${body.packageName} ${body.packagePrice}`,
 			MessageStream: 'broadcast',
 		});
 		res.status(200).json({ name: 'John Doe' });
