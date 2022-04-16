@@ -180,6 +180,7 @@ function BookingForm() {
 						{vehicleTypes.map((type, i) => (
 							<li
 								className={i === vehicleType && 'selected'}
+								key={i + Date.now()}
 								onClick={() => {
 									setVehicleType(i);
 									setFormState({
@@ -211,6 +212,7 @@ function BookingForm() {
 						{packages.map((el, i) => (
 							<li
 								className={i === packageType && 'selected'}
+								key={i + Date.now()}
 								onClick={() => {
 									setPackageType(i);
 									setFormState({
