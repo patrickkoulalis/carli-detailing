@@ -30,7 +30,7 @@ function services() {
 								<div className="card__icon">
 									<img src={handsBubbles.src} alt="" />
 								</div>
-								<h3>HIGH SPEED</h3>
+								<h3>High Speed</h3>
 								<span className="text-brand font-weight-900 font-size-64">
 									$40
 								</span>
@@ -57,7 +57,7 @@ function services() {
 							<div className="card__icon">
 								<img src={handsBubbles.src} alt="" />
 							</div>
-							<h3>EXTERIOR WASH</h3>
+							<h3>Exterior Wash</h3>
 							<span className="text-brand font-weight-900 font-size-64">
 								$80
 							</span>
@@ -77,7 +77,7 @@ function services() {
 							<div className="card__icon">
 								<img src={handsBubbles.src} alt="" />
 							</div>
-							<h3>EXTERIOR DELUXE</h3>
+							<h3>Exterior Deluxe</h3>
 							<span className="text-brand font-weight-900 font-size-64">
 								$119
 							</span>
@@ -86,10 +86,10 @@ function services() {
 								<span className="text-brand font-weight-900">Plus</span>:
 							</p>
 							<ul>
-								<li>Dust Dashboard and Console</li>
-								<li>Entire Vacuum</li>
-								<li>Dust Vents</li>
-								<li>Openings &amp; Electronics</li>
+								<li>Tires Dressed</li>
+								<li>Exterior rubber silicone treated</li>
+								<li>Exterior Simonized</li>
+								<li>Door and jambs waxed</li>
 							</ul>
 						</div>
 
@@ -97,19 +97,18 @@ function services() {
 							<div className="card__icon">
 								<img src={handsBubbles.src} alt="" />
 							</div>
-							<h3>INTERIOR DELUXE</h3>
+							<h3>Interior Deluxe</h3>
 							<span className="text-brand font-weight-900 font-size-64">
 								$139
 							</span>
-							<p className="font-size-24">
-								Includes Everything in High Speed{' '}
-								<span className="text-brand font-weight-900">Plus</span>:
-							</p>
+							<p className="font-size-24">Includes:</p>
 							<ul>
+								<li>Interior &amp; Exterior Windows</li>
 								<li>Dust Dashboard and Console</li>
-								<li>Entire Vacuum</li>
 								<li>Dust Vents</li>
 								<li>Openings &amp; Electronics</li>
+								<li>Vinyl &amp; Leather reconditioned</li>
+								<li>Upholstery &amp; Carpet Shampoo and Vacuum</li>
 							</ul>
 						</div>
 					</div>
@@ -173,12 +172,12 @@ function services() {
 							<div className="card__icon">
 								<img src={handsBubbles.src} alt="" />
 							</div>
-							<h3>HIGH SPEED</h3>
+							<h3>High Speed</h3>
 							<span className="text-brand font-weight-900 font-size-64">
 								$189
 							</span>
 							<p className="font-size-24">
-								Includes Everything in High Speed{' '}
+								Includes
 								<span className="text-brand font-weight-900">Plus</span>:
 							</p>
 							<ul>
@@ -213,7 +212,7 @@ function services() {
 							<div className="card__icon">
 								<img src={handsBubbles.src} alt="" />
 							</div>
-							<h3>INTERIOR DELUXE</h3>
+							<h3>Interior Deluxe</h3>
 							<span className="text-brand font-weight-900 font-size-64">
 								$499
 							</span>
@@ -222,10 +221,12 @@ function services() {
 								<span className="text-brand font-weight-900">Plus</span>:
 							</p>
 							<ul>
+								<li>Interior &amp; Exterior Windows</li>
 								<li>Dust Dashboard and Console</li>
-								<li>Entire Vacuum</li>
 								<li>Dust Vents</li>
 								<li>Openings &amp; Electronics</li>
+								<li>Vinyl &amp; Leather reconditioned</li>
+								<li>Upholstery &amp; Carpet Shampoo and Vacuum</li>
 							</ul>
 						</div>
 					</div>
