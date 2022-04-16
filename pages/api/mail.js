@@ -1,7 +1,7 @@
 // Require:
 var postmark = require('postmark');
 
-export default function handler(req, res) {
+export default async function handler(req, res) {
 	const body = JSON.parse(req.body);
 
 	if (req.method === 'POST') {
@@ -10,7 +10,7 @@ export default function handler(req, res) {
 			'7522f55c-6c59-4d6a-942c-4a5c422ae68a'
 		);
 
-		client.sendEmail({
+		await client.sendEmail({
 			From: 'booking@cardetailingpa.com',
 			To: 'carli@cardetailingpa.com',
 			replyTo: 'booking@cardetailingpa.com',
